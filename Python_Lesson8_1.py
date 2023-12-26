@@ -12,4 +12,4 @@ reverse_line = "".join(reversed(clear_line))
 if clear_line==reverse_line:
     print(f"Строка {line} является палиндромом")
 else:
-    print("Хрень какая-то")
+    print("No")

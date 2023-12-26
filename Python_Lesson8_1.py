@@ -1,9 +1,12 @@
+# 1 вариант
 #line = input("Введите слово ")
 #if line==line[::-1]:
 #    print("Yes")
 #else:
 #    print("No")
 
+
+# 2 вариант
 print("Программа проверяет является ли введенная строка палиндромом ")
 line = input("Введите строку: ")
 f = filter(str.isalpha, line)
